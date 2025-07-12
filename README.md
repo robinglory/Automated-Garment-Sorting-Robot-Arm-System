@@ -27,7 +27,7 @@ This project showcases an intelligent robotic system capable of sorting colored 
 | Component     | Preview |
 |---------------|---------|
 | Full Setup    | ![Full Setup](https://github.com/robinglory/Automated-Garment-Sorting-Robot-Arm-System/blob/main/Real%20Final%20Year%20Project/fritzing%20components/fifth%20year%20project%20schemetic(Final%20Presentation).jpg?raw=truetext=Full+System+Photo) |
-| Robotic Arm   | ![Arm Detail](https://via.placeholder.com/400x300?text=Arm+Close-up)      |
+| Robotic Arm   | ![Arm Detail](https://github.com/robinglory/Automated-Garment-Sorting-Robot-Arm-System/blob/main/Real%20Final%20Year%20Project/robot_arm/Screenshot%202025-07-12%20132859.png?raw=true/400x300?text=Arm+Close-up)      |
 | Conveyor Unit | ![Conveyor](https://github.com/robinglory/Automated-Garment-Sorting-Robot-Arm-System/blob/main/Testing/Conveyor%20Belt/Conveyor%20Blet%20(2)/DIAGRAMA%20DE%20CONEXIONES.jpg?raw=true/400x300?text=Conveyor+Unit)       |
 
 ---
