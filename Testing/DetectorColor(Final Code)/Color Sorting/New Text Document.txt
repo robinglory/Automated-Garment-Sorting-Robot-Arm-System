@@ -1,0 +1,65 @@
+# Simple Java Chat Application
+
+This project is a simple online chat application developed in Java. The application allows multiple users to connect to a central server, send messages, and receive messages from other users.
+
+## Requirements
+
+- Java Development Kit (JDK) installed
+- A command-line interface (CLI) like Command Prompt or PowerShell on Windows, or Terminal on macOS/Linux
+
+## Directory Structure
+
+ProgrammingAssignment_7/
+├── src/
+│ ├── ChatServer.java
+│ └── ChatClient.java
+└── README.md
+
+## How to Run
+
+### 1. Start the Server
+
+1. Open a terminal or command prompt.
+2. Navigate to the `src` directory where `ChatServer.java` is located.
+  example: cd "C:\Users\ASUS\Documents\UoPeople\12. CS 1103-01 Programming 2 - AY2024-T4\Week 7\Programming Assignment 7\ProgrammingAssignment_7\src"
+
+Compile the ChatServer.java file.
+javac ChatServer.java
+
+Run the ChatServer class.
+java ChatServer
+
+You should see the message "Chat server started..." indicating that the server is running.
+
+2. Start the Client
+Open another terminal or command prompt.
+Navigate to the src directory where ChatClient.java is located.
+example: cd "C:\Users\ASUS\Documents\UoPeople\12. CS 1103-01 Programming 2 - AY2024-T4\Week 7\Programming Assignment 7\ProgrammingAssignment_7\src"
+
+Compile the ChatClient.java file.
+javac ChatClient.java
+
+Run the ChatClient class.
+java ChatClient
+When prompted, type your message and press Enter to send it. You should see messages from other users if they are also connected to the server.
+
+Example Usage
+Start the server first.
+Then start multiple clients.
+Type messages in any client window and see them broadcasted to all other connected clients.
+Screenshot
+
+Error Handling
+Ensure no other application is using the port 12345.
+If you encounter java.net.BindException: Address already in use: bind, make sure to terminate any other instances of the server running on the same port.
+
+Notes
+Make sure the port number (12345) in ChatServer.java and ChatClient.java is within the valid range (0-65535) and is the same in both files.
+Ensure you have the necessary permissions to run the commands and use the specified port on your machine.
+License
+This project is licensed under the Uopeople License - see the LICENSE file for details.
+
+Author
+Yan Naing Kyaw Tint
+Acknowledgements
+University of the People/ CS 1103-01 - AY2024-T4
